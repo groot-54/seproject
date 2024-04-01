@@ -1,0 +1,44 @@
+.about-us {
+    padding: 20px 40px;
+}
+
+/* h1 {
+    text-align: center;
+} */
+
+.abt-main {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* h2 {
+    text-align: center;
+} */
+
+.abtus-container {
+    /* Style for card appearance */
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 70%); /* Optional glossy highlight */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius:30px; /* Rounded corners */
+    padding:30px 50px ;
+    min-width: 900px;
+    margin: auto;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* margin: 10px 120px; */
+    
+    
+    /* Style for left alignment and centering */
+    /* left: 30%; Positioned at 50% from the left */
+    /* transform: translateX(-15%);  */
+    max-width:1000px;
+}
+
+ul {
+    /* Unordered list styles */
+    list-style:square;
+    text-align: left;
+    /* padding-left: 1.5rem;
+    margin-bottom: 1rem; */
+  }
+  
