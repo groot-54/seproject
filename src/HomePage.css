@@ -1,66 +1,80 @@
 .container {
-    padding: 20px 40px; /* Add padding for spacing around the content */
+    padding: 20px 40px;
 }  
 
 body {
-    background-image: url("./Images/Untitled-design.png"); /* Replace with your image path */
-    background-size: cover; /* Stretch image to fill the entire viewport */
+    background-image: url("./Images/Untitled-design.png"); 
+    background-size: cover; 
     background-position: fixed;
     background-repeat: repeat;
-    margin: 0; /* Remove default margin on body */
-    height: 100vh; /* Set body height to 100% viewport height (optional) */
-    overflow: auto; /* Enable scrolling only when content overflows */
+    margin: 0; 
+    height: 100vh; 
+    overflow: auto;
 }
 
 #left-component {
     /* Style for card appearance */
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.5) 70%); /* Optional glossy highlight */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    border-radius:10px; /* Rounded corners */
-    padding: 30px 80px; /* Content padding */
-    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius:10px; 
+    padding: 30px 80px; 
     
     /* Style for left alignment and centering */
     min-height: 380px;
     min-width: 200px;
-    left: 30%; /* Positioned at 50% from the left */
-    transform: translateX(-15%); /* Offset by half its width to center */
-    max-width: 600px; /* Set a maximum width for the card */
-    margin: 0px; /* Add margin for spacing between components */
+    left: 30%; 
+    transform: translateX(-15%); 
+    max-width: 600px; 
+    margin: 0px; 
 }
 
 #left-component img {
     border-radius: 50%;
 }
 
+#left-component button,#middle-component button {
+    background-color: rgba(255, 255, 255, 0.625);
+    padding: 15px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border-radius: 32px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer; 
+}
+
+#left-component a :hover,#middle-component a :hover {
+    background-color: #08f44b81;
+}
+
 #middle-component {
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.5) 70%); /* Optional glossy highlight */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    border-radius:10px; /* Rounded corners */
-    padding: 30px 95px; /* Content padding */
-    cursor: pointer; /* Change cursor to pointer on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius:10px;
+    padding: 30px 95px;
+    cursor: pointer; 
 
     /* left: 70%; Positioned at 50% from the left */
     min-height: 380px;
     min-width: 200px;
-    transform: translateX(-0%); /* Offset by half its width to center */
-    max-width: 300px; /* Set a maximum width for the card */
-    margin-left: 0px; /* Add margin for spacing between components */
+    transform: translateX(-0%); 
+    max-width: 300px; 
+    margin-left: 0px; 
 }
 
 #right-component {
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.5) 70%); /* Optional glossy highlight */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    border-radius:10px; /* Rounded corners */
-    padding: 30px 95px; /* Content padding */
-    cursor: pointer; /* Change cursor to pointer on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius:10px;
+    padding: 30px 95px;
+    cursor: pointer;
     
     /* left: 50%; Positioned at 50% from the left */
     min-height: 380px;
     min-width: 200px;
-    transform: translateX(10%); /* Offset by half its width to center */
-    max-width: 300px; /* Set a maximum width for the card */
-    margin-left: 0px; /* Add margin for spacing between components */
+    transform: translateX(10%);
+    max-width: 300px; 
+    margin-left: 0px; 
 }
 
 #left-component,#middle-component,#right-component > h1 {

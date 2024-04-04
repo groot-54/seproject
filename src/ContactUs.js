@@ -24,7 +24,7 @@ function ContactUs() {
     setIsSubmitted(true);
 
     // Reset form after successful submission (optional)
-    setFormData({ name: '', email: '', message: '' });
+    setFormData({ name: '', email: '', mobile: '',message: '' });
   };
 
   return (
@@ -50,7 +50,7 @@ function ContactUs() {
                   <label htmlFor="email">Email:</label>
                   <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required />
                   <label htmlFor="message">Mobile No:</label>
-                  <input type="tel" id="mobile" name="email" value={formData.email} onChange={handleChange} required />
+                  <input type="tel" id="mobile" name="mobile" value={formData.mobile} onChange={handleChange} required />
                   <label htmlFor="message">Message:</label>
                   <textarea id="message" name="message" value={formData.message} onChange={handleChange} required />
                   <button type="submit" className='send-button'>Send Message</button>

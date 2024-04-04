@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './LoginPage.css';
-import { Link} from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function LoginPage() {
   const [formData, setFormData] = useState({
@@ -9,6 +9,8 @@ function LoginPage() {
     rememberMe: false,
     showPassword: false,
   });
+
+  const navigate = useNavigate();
 
   const handleChange = (event) => {
     setFormData({ ...formData, [event.target.name]: event.target.value });
@@ -19,7 +21,7 @@ function LoginPage() {
 
     // Implement login logic here (e.g., send data to server)
     console.log('Login data:', formData);
-
+    navigate('/home', {replace: true});
     // Reset form or redirect to dashboard on successful login (optional)
   };
 
@@ -55,7 +57,7 @@ function LoginPage() {
           />
           <label htmlFor="remember_me">Remember Me</label>
         </div>
-        <Link to="/home"><button type="submit" className='login-button'>Login</button></Link>
+        <button type="submit" className='login-button'>Login</button>
         <a href="#">Forgot Password?</a>
       </form>
     </div>

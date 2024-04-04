@@ -17,7 +17,7 @@
 .contus-container {
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 70%); /* Optional glossy highlight */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    border-radius:30px; /* Rounded corners */
+    border-radius:30px;
     padding:30px 70px ;
     /* min-width: 900px; */
     /* max-width: 500px; */

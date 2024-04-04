@@ -1,0 +1,86 @@
+.apt-cont {
+    padding: 20px 40px;
+}
+
+.appointment-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  /* Form styles */
+  .appointment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  #date-pic {
+    /* display: flex;
+    position: relative;
+    right: -560px; */
+    width: 100%;
+  } 
+
+  .appointment-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .appointment-form input,
+  .appointment-form select {
+    display: flex;
+    position: relative;
+    right: -500px;
+    width: 30%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 32px;
+    box-sizing: border-box;
+    margin-top: 10px;
+  }
+
+  .appointment-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 32px;
+    box-sizing: border-box;
+    margin-top: 10px;
+  }
+  
+  /* Button styles */
+  .appointment-form button {
+    background-color: rgba(255, 255, 255, 0.625);
+    color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 40px;
+    max-width: 250px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+  }
+  
+  .appointment-form button:hover {
+    background-color: #08f44b81;
+  }
+  
+  .react-datepicker__day--selected,
+  .react-datepicker__day--in-range {
+    background-color: #08f44b81;
+    color: #fff;
+  }
+  
+  .react-datepicker__day--keyboard-selected {
+    background-color: #08f44b81;
+  }
+  

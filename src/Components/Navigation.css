@@ -28,11 +28,10 @@
 }
 
 .logo {
-    border-radius: 50%; /* Make the logo a circle */
-    width: 80px; /* Set the width of the logo circle */
-    height: 80px; /* Set the height of the logo circle */
-    /* display: flex; */
-    align-items: center; /* Optional: Center logo text vertically */
-    justify-content: center; /* Optional: Center logo text horizontally */
-    margin-left: 350px; /* Add margin for spacing */
+    border-radius: 50%; 
+    width: 80px;
+    height: 80px;
+    align-items: center; 
+    justify-content: center; 
+    margin-left: 350px; 
 }

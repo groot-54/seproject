@@ -9,15 +9,15 @@ function AboutUs() {
       <h1 className="abt-main">About Us</h1>
       <div className='abtus-container'>
         <p>
-          We are a team dedicated to making appointment scheduling easier and more efficient. We believe that everyone should have access to a convenient and reliable way to manage their appointments.
+          We are a team with a project of making appointment scheduling easier and more efficient by developing a Web-base Appointment Facilitator.
         </p>
         <p>
-          Our platform provides a user-friendly interface for both individuals and businesses. Individuals can easily find appointments with the professionals they need, while businesses can streamline their appointment booking process and manage their schedules effectively.
+          Our platform provides a user-friendly interface. Patients can easily find appointments with the doctor, while doctors/receptionist can manage their appointment booking process and manage their schedules effectively.
         </p>
       </div>
       <h1 className="abt-main">Our Mission</h1>
       <p className='abtus-container'>
-        Our mission is to simplify the appointment scheduling process for everyone. We strive to create a platform that is user-friendly, reliable, and accessible.
+        Our mission is to develop a near-to working project for Software Engineering. We tried to create a platform that is user-friendly, reliable, and accessible.
       </p>
       <h1 className="abt-main">Our Values</h1>
       <ul className='abtus-container'>
@@ -26,7 +26,6 @@ function AboutUs() {
         <li>Efficiency: We aim to optimize appointment scheduling for both individuals and businesses.</li>
         <li>Innovation: We continuously seek new ways to improve our platform and offer the best possible experience.</li>
       </ul>
-      {/* Add any additional content you want, like team photos, testimonials, etc. */}
     </div>
   );
 }

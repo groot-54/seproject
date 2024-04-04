@@ -1,4 +1,5 @@
 import React from "react";
+import { Link} from 'react-router-dom';
 import Navbar from "./Components/Navigation";
 import './HomePage.css';
 
@@ -9,7 +10,7 @@ function LeftComponent() {
           <h1> Vedant Shirbhate </h1>
           <p>Age: 19</p>
           <p>Gender: Not Specific</p>
-        {/* Content for left component */}
+          <Link to="/Profile"><button>View Profile</button></Link>
       </div>
     );
   }
@@ -17,9 +18,9 @@ function LeftComponent() {
   function MiddleComponent() {
     return (
       <div id="middle-component">
-        {/* Content for middle component */}
         <h1>Appointments</h1>
         <p>No Upcomming Appointments</p>
+        <Link to="/Appointment"><button>Book Appointment</button></Link>
       </div>
     );
   }
@@ -27,7 +28,6 @@ function LeftComponent() {
   function RightComponent() {
     return (
       <div id="right-component">
-        {/* Content for right component */}
         <h1>Notifications</h1>
         <p>No New Notificatiosn</p>
       </div>

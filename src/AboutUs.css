@@ -16,16 +16,15 @@
 } */
 
 .abtus-container {
-    /* Style for card appearance */
+
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 70%); /* Optional glossy highlight */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    border-radius:30px; /* Rounded corners */
+    border-radius:30px;
     padding:30px 50px ;
     min-width: 900px;
     margin: auto;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* margin: 10px 120px; */
     
     
     /* Style for left alignment and centering */
@@ -35,10 +34,7 @@
 }
 
 ul {
-    /* Unordered list styles */
     list-style:square;
     text-align: left;
-    /* padding-left: 1.5rem;
-    margin-bottom: 1rem; */
   }
   

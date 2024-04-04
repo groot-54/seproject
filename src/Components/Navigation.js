@@ -1,8 +1,7 @@
 import React from "react";
 import { Link} from 'react-router-dom';
-import { withRouter } from 'react-router-dom'; // Import withRouter
+import { withRouter } from 'react-router-dom';
 import './Navigation.css';
-//import MyContext from './MyContext'; //(optional, if using context for navigation state) // Import context
 
 function Navbar({ shouldHideButton }) {
   const withHiddenAboutUsButton = (WrappedComponent) => (props) => {
@@ -19,7 +18,7 @@ function Navbar({ shouldHideButton }) {
           {!shouldHideButton &&<li><Link to="/about"><button  className="navButton">About Us</button></Link></li>}
           <li><Link to="/contact"><button  className="navButton">Contact Us</button></Link></li>
         </ul>
-          <img src="/logo.jpg" alt="Brand Logo" class="logo"/>
+          <Link to="/Home"><img src="/logo.jpg" alt="Brand Logo" class="logo"/></Link>
       </nav>
     );
 }
